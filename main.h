@@ -9,5 +9,6 @@
 #define MAIN_H_
 
 #include "system/system_init.h"
+#include "system/pointers.h"
 
 #endif /* MAIN_H_ */
