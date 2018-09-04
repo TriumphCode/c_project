@@ -6,3 +6,15 @@
  */
 
 
+#include "system/pointers_aritmetic.h"
+
+void pointers_Table_Increase(uint8_t * table)
+{
+	*table+=1;
+}
+
+void pointers_PrintTableValue(uint8_t * table)
+{
+	printf("Value from table: %d\n", *table);
+}
+

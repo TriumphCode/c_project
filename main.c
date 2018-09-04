@@ -12,5 +12,10 @@ int main (void)
 	pointers_ChangeValue(&changable_variable);
 	pointers_PrintValue(&changable_variable);
 
+	pointers_PrintTableValue(changable_table);
+	pointers_Table_Increase(changable_table);
+	pointers_PrintTableValue(changable_table);
+
+
 	return 0;
 }
