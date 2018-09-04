@@ -11,6 +11,7 @@
 #include "system/system_init.h"
 #include "system/pointers_basics.h"
 #include "system/pointers_aritmetic.h"
+#include "system/pointers_functions.h"
 
 uint8_t changable_variable = 0;
 uint8_t changable_table[]= {1,2,3,4,5};
