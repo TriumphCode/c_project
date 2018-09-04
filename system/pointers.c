@@ -20,4 +20,17 @@ void pointers_Intro(void)
 
 	printf("Address of storage: %p, value of storage: %d\n", pointer_to_storage, *pointer_to_storage);
 
+	*pointer_to_storage = 20;
+
+	printf("Value of storage from pointer: %d, value of storage: %d\n", *pointer_to_storage, storage_variable);
+}
+
+void pointers_ChangeValue(uint8_t *variable)
+{
+	*variable = 15;
+}
+
+void pointers_Print(uint8_t *variable)
+{
+	printf("Value of storage from pointer: %d\n", *variable);
 }

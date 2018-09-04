@@ -11,4 +11,6 @@
 #include "system/system_init.h"
 #include "system/pointers.h"
 
+uint8_t changable_variable = 0;
+
 #endif /* MAIN_H_ */
