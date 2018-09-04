@@ -14,7 +14,7 @@
 
 void pointers_Intro(void);
 void pointers_ChangeValue(uint8_t *variable);
-void pointers_Print(uint8_t *variable);
+void pointers_PrintValue(uint8_t *variable);
 
 
 
