@@ -9,7 +9,7 @@
 #define MAIN_H_
 
 #include "system/system_init.h"
-#include "system/pointers.h"
+#include "system/pointers_basics.h"
 
 uint8_t changable_variable = 0;
 

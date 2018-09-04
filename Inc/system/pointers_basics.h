@@ -1,5 +1,5 @@
 /*
- * pointers.h
+ * pointers_basics.h
  *
  *  Created on: Sep 3, 2018
  *      Author: user

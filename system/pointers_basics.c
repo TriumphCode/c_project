@@ -1,11 +1,11 @@
 /*
- * pointers.c
+ * pointers_basics.c
  *
  *  Created on: Sep 3, 2018
  *      Author: user
  */
 
-#include "system/pointers.h"
+#include "system/pointers_basics.h"
 
 
 void pointers_Intro(void)
